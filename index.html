@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="main.js" defer></script>
+<title>Coinlayer API</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Live Crypto Prices</h1>
+        <div class="gallery"> <!--TODO Add onclick event listener for figures-->
+            
+            <figure class="gallery__item gallery__item--1" id="fig1">
+                <img class="gallery__img" src="images/BTC.png" alt="BTC">
+                <h2>Bitcoin:</h2>
+                <h2 id="bitcoin-price"></h2>
+            </figure> 
+            
+            <figure class="gallery__item gallery__item--2" id="fig2">
+                <img class="gallery__img" src="images/ETH.png" alt="ETH">
+                <h2>Ethereum:</h2>
+                <h2 id="ethereum-price"></h2>
+            </figure>
+
+            <figure class="gallery__item gallery__item--3" id="fig3">
+                <img class="gallery__img" src="images/BNB.png" alt="BNB">
+                <h2>Binance:</h2>
+                <h2 id="binance-price"></h2>
+            </figure>
+    
+            <figure class="gallery__item gallery__item--4" id="fig4">
+                <img class="gallery__img" src="images/USDT.png" alt="USDT">
+                <h2>Tether:</h2>
+                <h2 id="tether-price"></h2>
+            </figure>
+
+            <figure class="gallery__item gallery__item--5" id="fig5">
+                <img class="gallery__img" src="images/XRP.png" alt="XRP">
+                <h2>Ripple:</h2>
+                <h2 id="ripple-price"></h2>
+            </figure>
+    
+            <figure class="gallery__item gallery__item--6" id="fig6">
+                <img class="gallery__img" src="images/ADA.webp" alt="ADA">
+                <h2>Cardano:</h2>
+                <h2 id="cardano-price"></h2>
+            </figure>
+
+    
+        </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
